@@ -16,10 +16,8 @@ public class TestaConversao {
 		double valor1 = 0.1;
 		double valor2 = 0.2;
 		double valorTotal = valor1 + valor2;
-        /* Como será constatado na instrução print abaixo, double não é a melhor maneira de
-        armazenar valores monetários */
-		
+        	/* Como será constatado na instrução print abaixo, double não é a melhor maneira de
+        	armazenar valores monetários */
 		System.out.println(valorTotal);
-		
 	}
 }
