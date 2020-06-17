@@ -2,7 +2,7 @@
 public class TestReference {
 
 	public static void main(String[] args) {
-		Employee Service = new Manager("Flávia Aparecida", "002.002.002-05", 8000.00);
+		Manager Service = new Manager("Flávia", "002.002.002-05", 8000.00);
 		System.out.println(Service.getNameEmployee());
 		System.out.println(Service.getCpfEmployee());
 		System.out.println(Service.getSalaryEmployee());
@@ -12,15 +12,15 @@ public class TestReference {
 		System.out.println(DAT.getCpfEmployee());
 		System.out.println(DAT.getSalaryEmployee());
 		
+		VideoEditor VideoMaker = new VideoEditor("Magomitsu", "004.004.004-04", 4000.00);
+		
 		BonusControl controlBonus = new BonusControl();
+		
 		controlBonus.register(Service);
-		System.out.println(Service);
-		System.out.println(controlBonus.getSum());
-		
 		controlBonus.register(DAT);
-		System.out.println(DAT);
-		System.out.println(controlBonus.getSum());
+		controlBonus.register(VideoMaker);
 		
+		System.out.println(controlBonus.getSum());
 	}
 	
 }
