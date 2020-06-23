@@ -7,7 +7,7 @@ public class TestReference {
 		System.out.println(Service.getCpfEmployee());
 		System.out.println(Service.getSalaryEmployee());
 		
-		Employee DAT = new Employee("Joamir", "003.003.003-05", 1000.00);
+		Employee DAT = new Manager("Joamir", "003.003.003-05", 1000.00);
 		System.out.println(DAT.getNameEmployee());
 		System.out.println(DAT.getCpfEmployee());
 		System.out.println(DAT.getSalaryEmployee());
