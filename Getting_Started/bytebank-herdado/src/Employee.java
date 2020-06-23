@@ -1,5 +1,5 @@
 
-public class Employee {
+public abstract class Employee {
 	private String nameEmployee;
 	private String cpfEmployee;
 	protected double salaryEmployee;
